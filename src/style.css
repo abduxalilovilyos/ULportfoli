@@ -1,0 +1,251 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #FFFFFF;
+}
+.site
+{
+    max-width: 1152px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: none;
+}
+.navbar
+{
+    width: 100%;
+    padding: 27px 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar__item
+{
+    display: flex;
+}
+.navbar__item a
+{
+    display: block;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 33px;    
+}
+.header
+{
+    width: 100%;
+    padding: 50px 148px;
+    display: flex;
+    justify-content: space-between;
+}
+.header img
+{
+    height: 243px;
+}
+.header__text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 115px 0 0;
+}
+.header__text h1
+{
+    color: #21243D;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;    
+}
+.header__text p
+{
+    color: #21243D;
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;  
+    margin: 40px 0;  
+}
+.header__text button
+{
+    width: 208px;
+    height: 47px;
+    background-color: #FF6464;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    word-wrap: break-word    
+}
+.post
+{
+    width: 100%;
+    padding: 30px 148px;
+    background-color: #EDF7FA;
+}
+.post__text
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post__text h4 , .works h4
+{
+    color: #21243D;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px;
+    word-wrap: break-word
+}
+.post__text h5
+{
+    color: #00A8CC;
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word    
+}
+.post__cards
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.post__card
+{
+    max-width: 48%;
+    padding: 24px 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+}
+.post__card h1
+{
+    color: #21243D;
+    font-size: 26px;
+    font-weight: 700;
+    word-wrap: break-word;    
+}
+.postcard__item
+{
+    display: flex;
+    margin: 15px 0;
+}
+.postcard__item h4
+{
+    color: #21243D;
+    font-size: 18px;
+    font-weight: 400;
+    word-wrap: break-word;  
+}
+.postcard__item h4:nth-child(1)
+{
+    margin-right: 20px;
+}
+.post__card p
+{
+    color: #21243D;
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;    
+}
+.works
+{
+    width: 100%;
+    padding: 30px 148px;
+    display: flex;
+    flex-direction: column;
+}
+.works__card
+{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+    padding: 15px 0;
+}
+.workCard__text
+{
+    margin-left: 18px;
+}
+.workCard__text h1
+{
+    color: #21243D;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+.workCard__item
+{
+    display: flex;
+    align-items: center;
+}
+.workCard__item .year
+{
+    width: 62px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #142850;
+    margin-right: 26px;       
+}
+.workCard__item .year h6
+{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;  
+}
+.workCard__item h6
+{
+    color: #8695A4;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.workCard__text p
+{
+    color: #20233C;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+.footer
+{
+    width: 100%;
+    padding: 60px 148px;
+    text-align: center;
+}
+.icons a
+{
+    display: block;
+}
+.icons 
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.icons a i
+{
+    color: #21243D;
+    font-size: 30px;
+}
+.footer h3
+{
+    color: #21243D;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+    margin-top: 20px;
+}
